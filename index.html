@@ -81,7 +81,7 @@
               <img class="w-[80%]" src="images/slider/bike1.png">
             </div>
           </div>
-          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 mr-4">
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-[63%] lg:top-1/2 mr-4">
             <a href="#slide4"class="btn btn-circle">❮</a> 
             <a href="#slide2"class="btn btn-circle">❯</a>
           </div>
@@ -99,7 +99,7 @@
               <img class="w-[80%]" src="images/slider/bike2.png">
             </div>
           </div>
-          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-[63%] lg:top-1/2">
             <a href="#slide1"class="btn btn-circle">❮</a> 
             <a href="#slide3"class="btn btn-circle">❯</a>
           </div>
@@ -117,7 +117,7 @@
               <img class="w-[80%]" src="images/slider/bike3.png">
             </div>
           </div>
-          <div class="absolute flex justify-between transform -translate-y-1/2   left-5 right-5 top-1/2">
+          <div class="absolute flex justify-between transform -translate-y-1/2   left-5 right-5 top-[63%] lg:top-1/2">
             <a href="#slide2" class="btn btn-circle">❮</a> 
             <a href="#slide4" class="btn btn-circle">❯</a>
           </div>
@@ -135,7 +135,7 @@
               <img class="w-[80%]" src="images/slider/bike4.png">
             </div>
           </div>
-          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-[63%] lg:top-1/2">
             <a href="#slide3" class="btn btn-circle">❮</a> 
             <a href="#slide1" class="btn btn-circle">❯</a>
           </div>
@@ -147,16 +147,16 @@
       <!-- latest section -->
       <div class="w-full lg:w-[90%] my-20 mx-auto">
         <h1 class="text-4xl font-bold py-5 text-center">Fetured Bikes In This Year</h1>
-        <p class="text-orange-700 text-center mb-5">Best bike collection</p>
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-2">
-          <div>
-            <img src="images/others/feature-bike.png">
+        <p class="text-orange-700 text-center pb-10">Best bike collection</p>
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-5">
+          <div class="p-5">
+            <img class="w-full" src="images/others/feature-bike.png">
           </div>
-          <div>
-            <img src="images/others/extrabike.png">
+          <div class="p-5">
+            <img class="w-full" src="images/others/extrabike.png">
           </div>
-          <div>
-            <img src="images/others/feature-bike.png">
+          <div class="p-5">
+            <img class="w-full" src="images/others/feature-bike.png">
           </div>
         </div>
       </div>
@@ -266,9 +266,79 @@
         </div>
       </div>
 
-    </main>
-    <footer>
+      <!-- faq section -->
+      <div  class="w-full p-3 lg:w-[90%] my-20 mx-auto">
+        <h3 class="text-center text-4xl my-5 font-bold mt-5">Frequently<span style="color: rgb(250, 80, 18);">Asked Questions </span></h3>
 
+        <div class="hero">
+          <div class="hero-content flex-col gap-10 lg:flex-row mt-5">
+            <img src="images/others/faq.png">
+            <div>
+            <div class="collapse collapse-arrow">
+              <input type="radio" name="my-accordion-2" checked="checked" /> 
+              <div class="collapse-title text-xl font-medium">
+                What are the most important things I should
+                know about riding a bike?
+              </div>
+              <div class="collapse-content"> 
+                <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+              </div>
+            </div>
+            <div class="collapse collapse-arrow">
+              <input type="radio" name="my-accordion-2" /> 
+              <div class="collapse-title text-xl font-medium">
+                How can I tell if my helmet is old and I need a 
+                new one?
+              </div>
+              <div class="collapse-content"> 
+                <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+              </div>
+            </div>
+            <div class="collapse collapse-arrow">
+              <input type="radio" name="my-accordion-2" /> 
+              <div class="collapse-title text-xl font-medium">
+                My bike has been in storage is it safe to ride?
+              </div>
+              <div class="collapse-content"> 
+                <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+              </div>
+            </div>
+            <div class="collapse collapse-arrow">
+              <input type="radio" name="my-accordion-2" /> 
+              <div class="collapse-title text-xl font-medium">
+                What rules should I follow when riding my bike?
+              </div>
+              <div class="collapse-content"> 
+                <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="flex justify-evenly footer p-10 bg-neutral text-neutral-content">
+      <aside class="mt-5">
+        <div>
+          <a class="mr-3 text-gray-400" href="">Download Now</a>
+          <a class="mr-3 text-gray-400" href="">License</a>
+        </div>
+        <div>
+          <a class="mr-3 text-gray-400" href="">About</a>
+          <a class="mr-3 text-gray-400" href="">Features</a>
+          <a class="mr-3 text-gray-400" href="">Pricing</a>
+          <a class="mr-3 text-gray-400" href="">Careers</a>
+          <a class="mr-3 text-gray-400" href="">Privacy Policy</a>
+        </div>
+        <p class="text-gray-400">© 2020 bike. All rights reserved</p>
+      </aside> 
+      <nav>
+        <header class="footer-title">Get the App</header> 
+        <div class="grid grid-flow-row gap-4">
+         <img class="w-36" src="images/others/android.png">
+         <img class="w-36" src="images/others/ios.png">
+        </div>
+      </nav>
     </footer>
 </body>
 </html>
